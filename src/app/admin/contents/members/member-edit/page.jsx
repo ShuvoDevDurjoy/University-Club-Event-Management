@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Header from '../../../elements/Header'
-import axiosClient from '../../axiosClient';
+import axiosClient from '../../../../../lib/axiosClient';
 import Link from 'next/link';
 
 const page = () => {
