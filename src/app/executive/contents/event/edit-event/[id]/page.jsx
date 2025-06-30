@@ -1,12 +1,12 @@
 "use client";
-import DateInput from "@/app/executive/components/DateInput";
-import SubmitButton from "@/app/executive/components/SubmitButton";
-import TextArea from "@/app/executive/components/TextArea";
-import TextInput from "@/app/executive/components/TextInput";
-import TimeInput from "@/app/executive/components/TimeInput";
-import Header from "@/app/executive/elements/Header";
-import axiosClient from "../../xiosClient";
-import { notify } from "../../oastify";
+import DateInput from "../../../../components/DateInput";
+import SubmitButton from "../../../../components/SubmitButton";
+import TextArea from "../../../../components/TextArea";
+import TextInput from "../../../../components/TextInput";
+import TimeInput from "../../../../components/TimeInput";
+import Header from "../../../../elements/Header";
+import axiosClient from "../../../../../../lib/axiosClient";
+import { notify } from "../../../../../../lib/toastify";
 import { useRouter } from "next/navigation";
 import { use, useEffect, useState } from "react";
 

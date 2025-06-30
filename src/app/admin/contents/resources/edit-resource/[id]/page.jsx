@@ -1,9 +1,9 @@
 "use client";
 
-import SubmitButton from "@/app/admin/components/SubmitButton";
-import TextInput from "@/app/admin/components/TextInput";
-import axiosClientAdmin from "@/app/admin/axiosClientAdmin";
-import { notify } from "../../toastify";
+import SubmitButton from "../../../../components/SubmitButton";
+import TextInput from "../../../../components/TextInput";
+import axiosClientAdmin from "../../../../../../lib/axiosClientAdmin";
+import { notify } from "../../../../../../lib/toastify";
 import { use, useEffect, useState } from "react";
 
 const page = ({ params }) => {

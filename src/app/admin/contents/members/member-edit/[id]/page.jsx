@@ -1,5 +1,5 @@
 'use client'
-import Header from '@/app/executive/elements/Header';
+import Header from '../../../../../executive/elements/Header';
 import React, { use, useEffect, useState } from 'react'
 
 const page = ({params}) => {

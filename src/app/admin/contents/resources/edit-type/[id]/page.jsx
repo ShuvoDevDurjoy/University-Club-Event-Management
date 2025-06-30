@@ -1,10 +1,10 @@
 "use client";
-import SelectionInput from "@/app/admin/components/SelectionInput";
-import SubmitButton from "@/app/admin/components/SubmitButton";
-import TextInput from "@/app/admin/components/TextInput";
-import Header from "@/app/admin/Header";
-import axiosClientAdmin from "@/app/admin/axiosClientAdmin";
-import { notify } from "../../oastify";
+import SelectionInput from "../../../../components/SelectionInput";
+import SubmitButton from "../../../../components/SubmitButton";
+import TextInput from "../../../../components/TextInput";
+import axiosClientAdmin from "../../../../../../lib/axiosClientAdmin";
+import { notify } from "../../../../../../lib/toastify";
+import Header from '../../../../elements/header'
 import React, { use, useEffect, useState } from "react";
 
 const page = ({params}) => {

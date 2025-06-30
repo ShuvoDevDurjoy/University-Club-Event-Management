@@ -1,7 +1,7 @@
 'use client'
 
-import axiosClient from "../../axiosClient"
-import axiosClientAdmin from "@/app/admin/axiosClientAdmin"
+// import axiosClient from "../../axiosClient"
+import axiosClientAdmin from '../../../lib/axiosClientAdmin'
 import { useEffect } from "react"
 
 const VerifyLogin = () => {

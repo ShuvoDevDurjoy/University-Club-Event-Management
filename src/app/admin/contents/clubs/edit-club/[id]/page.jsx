@@ -4,8 +4,8 @@ import SubmitButton from "../../../../components/SubmitButton";
 import TextArea from "../../../../components/TextArea";
 import TextInput from "../../../../components/TextInput";
 import Header from "../../../../elements/Header";
-import axiosClient from "../../axiosClient";
-import { notify } from "../../toastify";
+import axiosClient from "../../../../../../lib/axiosClient";
+import { notify } from "../../../../../../lib/toastify";
 import { use, useEffect, useState } from "react";
 
 const page = ({ params }) => {
