@@ -4,7 +4,7 @@ import SubmitButton from "../../../../components/SubmitButton";
 import TextInput from "../../../../components/TextInput";
 import axiosClientAdmin from "../../../../../../lib/axiosClientAdmin";
 import { notify } from "../../../../../../lib/toastify";
-import Header from '../../../../elements/header'
+import Header from '../../../../elements/Heading'
 import React, { use, useEffect, useState } from "react";
 
 const page = ({params}) => {

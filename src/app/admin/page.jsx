@@ -1,6 +1,6 @@
 // import axiosClient from "../lib/axiosClient"
 import Dashboard from "./elements/dashboard"
-import Heading from "./elements/header"
+import Heading from "./elements/Heading"
 import axiosClient from "../../lib/axiosClient"
 
 const page = () => {

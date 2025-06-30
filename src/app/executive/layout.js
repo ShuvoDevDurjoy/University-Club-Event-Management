@@ -1,7 +1,7 @@
 "use client";
 import FetchCookie from "../../lib/FetchCookie";
 import Dashboard from "./elements/dashboard";
-import Heading from "./elements/header";
+import Heading from "./elements/Heading";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

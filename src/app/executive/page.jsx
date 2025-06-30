@@ -1,6 +1,3 @@
-import axiosClient from "../../lib/axiosClient"
-import Dashboard from "./elements/dashboard"
-import Heading from "./elements/header"
 
 const page = () => {
 

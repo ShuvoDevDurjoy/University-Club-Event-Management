@@ -5,7 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import Heading from "./elements/header";
+import Heading from "./elements/Heading";
 import { ClubContext } from "./ClubContext";
 
 export default function ExecutiveLayout({ children }) {
