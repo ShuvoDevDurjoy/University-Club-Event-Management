@@ -1,9 +1,9 @@
 "use client";
-import SelectionInput from "@/app/executive/components/SelectionInput";
-import SubmitButton from "@/app/executive/components/SubmitButton";
-import TextArea from "@/app/executive/components/TextArea";
-import TextInput from "@/app/executive/components/TextInput";
-import Header from "@/app/executive/elements/Header";
+import SelectionInput from "../../../../components/SelectionInput";
+import SubmitButton from "../../../../components/SubmitButton";
+import TextArea from "../../../../components/TextArea";
+import TextInput from "../../../../components/TextInput";
+import Header from "../../../../elements/Header";
 import axiosClient from "../../axiosClient";
 import { notify } from "../../toastify";
 import { use, useEffect, useState } from "react";
