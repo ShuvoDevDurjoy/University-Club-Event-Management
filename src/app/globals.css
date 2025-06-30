@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +23,66 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+div::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+@layer utilities {
+  .h-maximum {
+    height: max(500px, 40vw);
+  }
+
+  .h-grid-full {
+    height: calc(100% - 80px);
+  }
+
+  .h_full {
+    height: calc(100% - 20px);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .h-content-full{
+    height: calc(100% - 70px);
+  }
+
+  .back-text{
+    color: transparent;
+    background: linear-gradient(90deg, magenta, purple, yellow, tomato, red, tomato, yellow, purple, magenta);
+    background-size: 1000% 100%;
+    background-position-x: center;
+    animation: animate_back_text 5s linear infinite;
+    animation-direction: alternate;
+    background-clip: text;
+  }
+
+  .fade-in-up {
+    opacity: 0;
+    transform: translate(-25px, 25px);
+    transition: all 0.2s ease-out;
+  }
+
+  .fade-in-up.active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+
+
+  @keyframes animate_back_text{
+    from{
+      background-position: 0%;
+    }
+    to{
+      background-position: 100%;
+    }
+  }
 }
