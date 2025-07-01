@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // any other config you have (like images, experimental, etc.)
 }
 
-export default nextConfig;
+module.exports = nextConfig;
