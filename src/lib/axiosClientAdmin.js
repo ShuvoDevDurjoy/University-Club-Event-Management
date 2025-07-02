@@ -11,7 +11,7 @@ function getCookie(name) {
 
 // Create Axios instance
 const axiosClientAdmin = axios.create({
-  baseURL: 'http://localhost:8000', // Change to your production API base URL
+  baseURL: process.env.NEXT_PUBLIC_BASE_URL, // Change to your production API base URL
   withCredentials: true,            // Required for Sanctum session + CSRF
   timeout: 10000,                   // Optional: 10s timeout for slow networks
   headers: {

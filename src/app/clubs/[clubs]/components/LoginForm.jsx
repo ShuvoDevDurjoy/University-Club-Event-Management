@@ -22,7 +22,7 @@ const LoginForm = ({setUser, setActive}) => {
 
   const fetchClubs = async()=>{
     try{
-      const clubs = await axiosClientMember.get('http://localhost:8000/executives/api/club_id_with_name');
+      const clubs = await axiosClientMember.get('/executives/api/club_id_with_name');
       if(clubs.data.success){
         setOptions(clubs.data.club);
       }

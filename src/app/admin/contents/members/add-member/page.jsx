@@ -33,6 +33,7 @@ const AddMember = () => {
       }
     }catch(e){
       console.log("Error happened");
+      console.log(e);
     }
   }
 

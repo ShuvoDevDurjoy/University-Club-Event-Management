@@ -9,7 +9,7 @@ const FetchCookie = () => {
       console.log("fetching cookie");
     try{
     console.log("Cookie is being fetched");
-        await axiosClient.get("http://localhost:8000/sanctum/csrf-cookie",{withCredentials: true});
+        await axiosClient.get(`${process.env.NEXT_PUBLIC_BASE_URL}/sanctum/csrf-cookie`,{withCredentials: true});
         console.log("Cookie is fetced");
     }catch(e){
       console.log(e);
